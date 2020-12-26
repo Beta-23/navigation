@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Nunito&display=swap');
+
 :root {
-	--primaryColor: black;
+	--primaryColor: #330c6e;
 	--navColor1: #21292c;
 	--navColor2: #6441a4;
 	--navColor3: #d40074;
@@ -14,6 +16,7 @@ html {
 body {
 	margin: 0;
 	background: #000;
+	font-family: Inter, sans-serif;
 }
 
 /* --- Navigation Menu ------------------------------ */
