@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Nunito&display=swap');
+
 :root {
-	--primaryColor: black;
+	--primaryColor: #330c6e;
 	--navColor1: #21292c;
 	--navColor2: #6441a4;
 	--navColor3: #d40074;
@@ -14,10 +16,29 @@ html {
 body {
 	margin: 0;
 	background: #000;
+	font-family: Inter, sans-serif;
 }
 
 /* --- Navigation Menu ------------------------------ */
 
+/* Overlay */
+.overlay {
+	position: fixed;
+	z-index: 9;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* Nav Menu Items*/
+nav,
+nav ul {
+	height: 100vh;
+	margin: 0;
+	padding: 0;
+}
 /* --- Menu Bars ------------------------------------ */
 
 .menu-bars {
