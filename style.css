@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter&family=Nunito&display=swap');
+@import 'https://fonts.googleapis.com/css2?family=Inter&family=Nunito&display=swap';
 
 :root {
 	--primaryColor: #330c6e;
@@ -39,6 +39,28 @@ nav ul {
 	margin: 0;
 	padding: 0;
 }
+
+/* Sudo class for nth element  */
+nav li:nth-of-type(1) {
+	background-color: var(--navColor1);
+}
+
+nav li:nth-of-type(2) {
+	background-color: var(--navColor2);
+}
+
+nav li:nth-of-type(3) {
+	background-color: var(--navColor3);
+}
+
+nav li:nth-of-type(4) {
+	background-color: var(--navColor4);
+}
+
+nav li:nth-of-type(5) {
+	background-color: var(--navColor5);
+}
+
 /* --- Menu Bars ------------------------------------ */
 
 .menu-bars {
